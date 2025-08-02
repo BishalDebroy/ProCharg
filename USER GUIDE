@@ -3,22 +3,24 @@ This will guide you through the preparaion of the enveronment to run the code
 ## REQUIREMENTS
 Python version 3.0 to above
 To check your current version: python --version
-To update python: 
+To update python:
+To install freshly, download the latest version from: www.python.org/downloads/
 
 ## Install Dependencies
 pip install biopython
 
-## Prepare the enveronment
+
+---------FOR WINDOWS USERS--------------
+
+## Run with command line: Prepare the enveronment
 1. Create a directory
 2. Create a Protein.txt file with amino acid seqience in fasta format (Example file given)
 3. Save ProCharg_cmd.py in the directory
-or 
-Save ProCharg_UI.py in the directory
-
-##Run with command line
-1. Open terminal in the directory
-2. Run the code: python ProCharg_cmd.py
+4. Open terminal in the directory
+5. Run the code: python ProCharg_cmd.py
+NOTE: Select the pH against which you want to calculate the overall charge of the protein
 
 ##Use with GUI
-1. Open terminal in the directory
+1. Save ProCharg_UI.py anywhere in your system.
+2. Open terminal in the same PATH
 2. Run the code: python ProCharg_UI.py
