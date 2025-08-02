@@ -14,7 +14,7 @@ pip install biopython
 
 ## Run with command line: Prepare the enveronment
 1. Create a directory
-2. Create a Protein.txt file with amino acid seqience in fasta format (Example file given)
+2. Create a Protein.txt file with amino acid seqience in fasta format (Example protein.txt file given)
 3. Save ProCharg_cmd.py in the directory
 4. Open terminal in the directory
 5. Run the code: python ProCharg_cmd.py
@@ -22,5 +22,10 @@ NOTE: Select the pH against which you want to calculate the overall charge of th
 
 ##Use with GUI
 1. Save ProCharg_UI.py anywhere in your system.
-2. Open terminal in the same PATH
-2. Run the code: python ProCharg_UI.py
+2. Create a Protein.txt file with amino acid seqience in fasta format (Example protein.txt file given)
+3. Open terminal in the same PATH
+4. Run the code: python ProCharg_UI.py
+5. Browse you prepared file
+6. set the pH
+7. Run analysis.
+NOTE: Do not forget to save the output
