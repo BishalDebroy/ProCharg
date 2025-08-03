@@ -3,7 +3,7 @@ This will guide you through the preparaion of the enveronment to run the code
 ## REQUIREMENTS
 Python version 3.0 to above
 To check your current version: python --version
-To update python:
+To update python: winget upgrade --id Python.Python.3 (Open CMD as administrater if required)
 To install freshly, download the latest version from: www.python.org/downloads/
 
 
