@@ -6,8 +6,7 @@ To check your current version: python --version
 To update python:
 To install freshly, download the latest version from: www.python.org/downloads/
 
-## Install Dependencies
-pip install biopython
+
 
 
 ---------FOR WINDOWS USERS--------------
@@ -21,8 +20,8 @@ pip install biopython
 NOTE: Select the pH against which you want to calculate the overall charge of the protein
 
 ##Use with GUI
-1. Save ProCharg_UI.py anywhere in your system.
-2. Create a Protein.txt file with amino acid seqience in fasta format (Example protein.txt file given)
+1. Create a Protein.txt file with amino acid seqience in fasta format (Example protein.txt file given)
+2. Save ProCharg_UI.py anywhere in your system.
 3. Open terminal in the same PATH
 4. Run the code: python ProCharg_UI.py
 5. Browse you prepared file
